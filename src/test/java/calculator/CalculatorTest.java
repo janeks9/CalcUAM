@@ -33,13 +33,13 @@ public class CalculatorTest {
     public void TriangleArea() {assertEquals(8.0, calculator.CalculateTriangleArea(4,4));}
 
     @Test
-    public void SquareCirc() {assertEquals(4, calculator.CalculateSquareCirc(1));}
+    public void SquareCirc() {assertEquals(12, calculator.CalculateSquareCirc(3));}
 
     @Test
     public void SquareArea() {assertEquals(49.0, calculator.CalculateSquareArea(7));}
 
     @Test
-    public void RectArea() {assertEquals(1.0, calculator.CalculateRectArea(1,1));}
+    public void RectArea() {assertEquals(12.0, calculator.CalculateRectArea(3,4));}
 
     @Test
     public void SquareRoot() {assertEquals(3.0, calculator.sqrt(9));}
@@ -60,7 +60,13 @@ public class CalculatorTest {
     public void LCMCounting() {assertEquals(1584, calculator.findLCM(22, 144));}
 
     @Test
-    public void ShouldReturnFalseIfNumberIs() {assertEquals(calculator.isPrime(0), false);}
+    public void ShouldReturnFalseIfNumberIs0() {assertEquals(calculator.isPrime(0), false);}
+
+    @Test
+    public void ShouldReturnFalseIfNumberIs1() {assertEquals(calculator.isPrime(1), false);}
+
+    @Test
+    public void ShouldReturnFalseIfNumberIs25() {assertEquals(calculator.isPrime(25), false);}
 
     @Test
     public void ShouldReturnTrueIfNumberIs11() {assertEquals(calculator.isPrime(11), true);}
