@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_07_07_2024_22_40_[Changes]1" date="1720384829509" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_07_2024_22_40_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 07.07.2024 22:40 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/jacoco.exec" />
+    <option name="AFTER_PATH" value="target/jacoco.exec" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_07_2024_22_40_[Changes]1/jacoco.exec" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/Calculator-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" value="target/Calculator-1.0-SNAPSHOT.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_07_2024_22_40_[Changes]1/Calculator-1.0-SNAPSHOT.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/calculator/CalculatorTest.class" />
+    <option name="AFTER_PATH" value="target/test-classes/calculator/CalculatorTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_07_2024_22_40_[Changes]1/CalculatorTest.class" />
+  </binary>
+</changelist>
